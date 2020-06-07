@@ -1,0 +1,4 @@
+#!/bin/bash
+
+yay -S --noconfirm visual-studio-code-bin
+yay -S --noconfirm slack-desktop

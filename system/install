@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Installing Zsh
+yay -S --noconfirm Zsh
+chsh -s $(which zsh)
+ln -s -f $HOME/.dotfiles/system/.zshrc $HOME/.zshrc
+
+# Other system commands
+yay -S --noconfirm exa
+yay -S --noconfirm bat
+yay -S --noconfirm gotop
+yay -S --noconfirm ctop
+
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+
+sh ~/.fzf/install

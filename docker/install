@@ -1,0 +1,7 @@
+#!/bin/bash
+
+yay -S --noconfirm docker docker-compose
+
+sudo groupadd docker
+sudo usermod -aG docker $usermod
+sudo systemctl enable docker

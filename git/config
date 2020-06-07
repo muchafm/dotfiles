@@ -1,0 +1,16 @@
+[user]
+        name = muchafm
+        email = sophie.roussel@knplabs.com
+[core]
+        excludesfile = ~/.gitignore
+        editor = nvim
+        excludesfile = /home/rsophie/.gitignore
+[push]
+        default = current
+[tag]
+        sort = version:refname
+[branch]
+        sort = -committerdate
+[mergetool]
+        keepBackup = false
+        

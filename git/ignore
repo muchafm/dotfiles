@@ -1,0 +1,19 @@
+# Packages #
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and database #
+#####################
+*.sql
+*.sqlite
+
+# IDE config directories #
+##########################
+/.idea
+/.vscode

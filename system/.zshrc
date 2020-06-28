@@ -23,7 +23,6 @@ zplug 'zplug/zplug', hook-build:'zplug --self-manage'
 # THEME
 DEFAULT_USER=rsophie
 DEFAULT_MACHINE='XPS13'
-zplug 'lcouellan/0e4a409e653efba2d9bb0d9d5485d024', from:gist, use:lcouellan.zsh-theme, as:theme
 
 ## GLOBAL VARs
 export EDITOR='nvim'
